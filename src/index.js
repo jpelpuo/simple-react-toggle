@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ToggleSwitch from './ToggleSwitch';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ToggleSwitch />
   </React.StrictMode>,
   document.getElementById('root')
 );
